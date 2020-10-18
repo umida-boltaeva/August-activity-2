@@ -22,16 +22,16 @@ img {
   background-size: cover;
 }
 
-/* .booking-button {
+.booking-button {
   background: #9ebe53;
   border-radius: 100px;
   border: transparent;
   color: #fff;
   padding: 6px 15px;
   margin-top: 3px;
-} */
+}
 
-/* .caption {
+.caption {
   color: #fff;
   text-align: center;
   width: 100%;
@@ -40,14 +40,14 @@ img {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-} */
+}
 
 .caption h1 {
-  font-size: 90px;
+  font-size: 85px;
 }
 
 .caption p {
-  font-size: 32px;
+  font-size: 25px;
 }
 
 .motto {
@@ -78,11 +78,21 @@ img {
   }
 
   .caption p {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .footer-items {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .caption h1 {
+    font-size: 55px;
+  }
+
+  .caption p {
+    font-size: 20px;
   }
 }
 
